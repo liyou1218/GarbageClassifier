@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <!-- 自定义颜色 -->
+    <color name="dark_green">#006400</color>
+    <color name="light_green">#F0FFF0</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="dark_gray">#5A5A5A</color>
+
+    <!-- 垃圾类别颜色 -->
+    <color name="recyclable">#1E88E5</color>    <!-- 蓝色 - 可回收 -->
+    <color name="kitchen">#43A047</color>        <!-- 绿色 - 厨余 -->
+    <color name="harmful">#E53935</color>        <!-- 红色 - 有害 -->
+    <color name="other">#757575</color>
+</resources>

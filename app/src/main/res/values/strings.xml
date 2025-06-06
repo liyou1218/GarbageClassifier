@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GarbageClassifier</string>
+    <string name="todo">TODO</string>
+    <string name="other_str">其他</string>
+    <string name="harmful_str">有害</string>
+    <string name="kitchen_str">厨余</string>
+    <string name="recycle_str">可回收</string>
+    <string name="common_types">常见垃圾类型</string>
+    <string name="input_str">输入垃圾名称...</string>
+    <string name="assistant">垃圾分类助手</string>
+    <string name="history">搜索历史</string>
+    <string name="search">搜索</string>
+</resources>
