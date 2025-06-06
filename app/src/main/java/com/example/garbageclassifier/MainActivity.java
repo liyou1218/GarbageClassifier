@@ -313,6 +313,12 @@ public class MainActivity extends AppCompatActivity {
     private void showGarbageList(String category) {
         resultContent.removeAllViews();
 
+        //添加返回按钮
+        ImageButton backButton = new ImageButton(this);
+        backButton.setImageResource(R.drawable.back_foreground);
+        backButton.setOnClickListener(v -> showCategories());
+        resultContent.addView(backButton);
+
         // 添加标题
         TextView title = new TextView(this);
         title.setText(category + " (" + getGarbageCountByCategory(category) + "种)");

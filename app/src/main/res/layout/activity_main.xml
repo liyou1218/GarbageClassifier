@@ -69,6 +69,17 @@
             android:background="@drawable/result_bg"
             android:padding="16dp">
 
+            <ImageButton
+                android:id="@+id/btnBackToMain"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="start"
+                android:background="@null"
+                android:src="@drawable/back_foreground"
+                android:contentDescription="@string/back"
+                android:visibility="gone"
+                android:padding="4dp"/>
+
             <!-- 结果内容动态添加 -->
         </LinearLayout>
     </ScrollView>
